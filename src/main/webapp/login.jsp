@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
     <meta name="author" content="Andres Gayón Espinel" />
@@ -82,7 +83,7 @@
                         </div>
 
                         <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
-                        <p>Don't have an account? <a href="#!" class="link-info">Register here</a></p>
+                        <p>Don't have an account? <a href="./signin.jsp" class="link-info">Register here</a></p>
 
                     </form>
 
@@ -90,11 +91,73 @@
 
             </div>
             <div class="col-sm-6 px-0 d-none d-sm-block">
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img3.webp"
+                <img src="./assets/login-gym.jpg"
                      alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
             </div>
         </div>
     </div>
+</section>
+
+<!-- login end-->
+
+<!-- Footer begin -->
+<section class="footer" id="footer" style="background-color:#9E3F00">
+    <!-- Footer -->
+    <footer class="bg-secondary text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">¿Quienes somos?</h5>
+
+                    <p>
+                        Somos una compañia, dispuesta y comprometida a mejorar la salud de nuestros clientes,
+                        capaces de dar un servicio de calidad y aseguramos resultados factibles de acuerdo a
+                        las necesidades de cada usuario.
+                    </p>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Telefonos</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">320 356032</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">01800 353641</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">contactanos</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">info@gymsport.com</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">peticiones@gymsport.com</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+    </footer>
+    <!-- Footer -->
 </section>
 
 </body>
