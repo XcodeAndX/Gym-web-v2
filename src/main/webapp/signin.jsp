@@ -16,7 +16,7 @@
     String apellido = request.getParameter("apellido");
     String email = request.getParameter("email");
     String telefono = request.getParameter("telefono");
-    String contrasena = request.getParameter("contrasena")
+    String contrasena = request.getParameter("contrasena");
 
 %>
 <html>

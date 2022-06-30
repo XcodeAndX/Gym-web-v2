@@ -8,6 +8,7 @@
 --%>
 <%@ page import="com.Gym.Gym_web_v2.dto.ClienteDTO"%>
 <%@ page import="com.Gym.Gym_web_v2.dao.ClienteDAO"%>
+<%@ page import="javax.swing.*" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String cedula = request.getParameter("cedula");
@@ -15,6 +16,7 @@
     String apellido = request.getParameter("apellido");
     String email = request.getParameter("email");
     String telefono = request.getParameter("telefono");
+    String contrasena = request.getParameter("contrasena");
 
 %>
 <html>
@@ -118,7 +120,7 @@
 
                         <!-- Password input -->
                         <div class="form-outline mb-4">
-                            <input type="password" id="password" class="form-control" />
+                            <input type="password" id="password" class="form-control" value="<%=contrasena%>"/>
                             <label class="form-label" for="password">Password</label>
                         </div>
 
