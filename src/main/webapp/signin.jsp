@@ -14,6 +14,7 @@
     String nombre = request.getParameter("nombre");
     String apellido = request.getParameter("apellido");
     String email = request.getParameter("email");
+    String telefono = request.getParameter("telefono");
 
 %>
 <html>
@@ -84,13 +85,13 @@
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <div class="form-outline">
-                                    <input type="text" id="Nombre" class="form-control" />
-                                    <label class="form-label" for="Nombre">Nombres</label>
+                                    <input type="text" id="nombre" class="form-control" value="<%=nombre%>" />
+                                    <label class="form-label" for="nombre">Nombres</label>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-4">
                                 <div class="form-outline">
-                                    <input type="text" id="Apellido" class="form-control" />
+                                    <input type="text" id="Apellido" class="form-control" value="<%=apellido%>" />
                                     <label class="form-label" for="Apellido">Apellido</label>
                                 </div>
                             </div>
@@ -98,14 +99,14 @@
 
                         <!-- Document input-->
                         <div class="form-outline mb-4">
-                            <input type="email" id="Cedula" class="form-control" />
+                            <input type="email" id="Cedula" class="form-control" value="<%=cedula%>"/>
                             <label class="form-label" for="Cedula">Documento de identidad</label>
                         </div>
 
 
                         <!-- Phone input-->
                         <div class="form-outline mb-4">
-                            <input type="email" id="telefono" class="form-control" />
+                            <input type="email" id="telefono" class="form-control" value="<%=telefono%>"/>
                             <label class="form-label" for="telefono">Telefono</label>
                         </div>
 
